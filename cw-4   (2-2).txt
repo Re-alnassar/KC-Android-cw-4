@@ -1,0 +1,24 @@
+public class Main
+{
+	public static void main(String[] args) {
+		
+		additionOne(17);
+		
+		int temperature = 17;
+		
+		if (temperature>=23) {
+		   System.out.println("Hot");
+		   
+		   
+		} else 
+		System.out.println("Cold");
+	}
+	
+	
+	public static void additionOne(int temperature){
+	    
+	    int result = temperature;
+	    
+	    System.out.println(result);
+	}
+}
